@@ -1,6 +1,9 @@
 # Charger
 ro.charger.enable_suspend=true
 
+# Display
+debug.force_no_blanking=true
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
