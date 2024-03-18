@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/ruby/device.mk)
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# BootAnimation
+TARGET_BOOT_ANIMATION_RES := 1440
+
 PRODUCT_NAME := aosp_ruby
 PRODUCT_DEVICE := ruby
 PRODUCT_MANUFACTURER := Xiaomi
